@@ -1,0 +1,29 @@
+eris keys gen
+DE20A06F706D8250BFF0D2118A8290314E383DBC
+
+
+CHAIN             ON     CONTAINER ID     DATA CONTAINER
+library_chain     *      8174dafa3a       28106a0059
+
+
+
+~/.eris/chains/library_chain
+
+echo $addr
+3C63AD76168F072548799CA0D77156A183B75143
+
+
+
+
+422F0649DFFAA38DC298D882D99F19EC20284C7F
+
+Executing Job                                 defaultAddr
+Executing Job                                 setStorageBase
+Executing Job                                 deployStorageK
+Deploying Contract                       name=IdisContractsFTW
+                                         addr=7C0BBDD5614892C55F770A1DF81B6FC3E5E71F17
+Executing Job                                 setStorage
+Executing Job                                 queryStorage
+Return Value                                  5
+Executing Job                                 assertStorage
+Assertion Succeeded                           5 == 5
