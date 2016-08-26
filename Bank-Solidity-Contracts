@@ -1,0 +1,26 @@
+//Contracts and Interfaces
+
+Contract Depositor {
+	function deposit(uint amount);
+}
+
+Contract ICanDeposit is Depositor {
+	function deposit(uint amount);
+}
+
+Contract Withdrawer {
+	function withdraw();
+}
+
+contract BankUser is Depositor, Withdrawer {
+	deposit(uint amount);
+	withdraw(uint amount);
+}
+
+contract Bank {
+	//create bank here;
+}
+
+contract UBS is Bank {
+	
+}
