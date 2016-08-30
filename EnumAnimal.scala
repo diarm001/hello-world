@@ -1,6 +1,6 @@
 // EnumAnimal.scala
 // This is an example of a Schema Definition programmed in Scala to 
-// be used as GraphQL to chat with scala
+// be used as GraphQL to chat with Scala
 // In our case Akka
 // Defines enumerated data types for cat, dog + goat.
 
