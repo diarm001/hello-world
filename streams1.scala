@@ -1,7 +1,7 @@
 // Akka streams, Flowshape which can be in itself
 // an inner complex toplogy of streams
 
-Flowshape (Inlet<I> in, Outlet <O> out)
+Flowshape (Inlet <I> in, Outlet <O> out)
 
 A = Outlet 		// Input from file, API etc.
 B = Flowshape	// Ingest and Emit
