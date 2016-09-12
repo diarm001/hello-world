@@ -1,0 +1,21 @@
+@import "$FILEPATH/colors";		//import colour detail from file
+@import "$FILEPATH/button/mixins";	//import button characteristics 
+
+@include btn-colors("primary", $color-white, $palette-lime-200);	//incluse characteristics
+
+
+$red: #ff0000;	//define colour red in hex
+$white: #fff;	//define white
+
+//create appBar as defined by parent component class
+
+.appBar {		
+  background-color: $red;
+
+  > svg {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+    fill: $white;
+  }
+}
