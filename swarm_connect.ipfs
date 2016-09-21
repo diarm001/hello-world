@@ -1,0 +1,8 @@
+ipfs swarm connect /ip4/104.236.176.52/tcp/4001/ipfs/
+
+
+
+
+
+
+ipfs dht findpeer QmaeXrsLHWm4gbjyEUJ4NtPsF3d36mXVzY5eTBQHLdMQ19
